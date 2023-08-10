@@ -1,0 +1,29 @@
+.top_name {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 15px;
+  left: 48px;
+  font-size: var(--font-size-xl);
+  line-height: 150%;
+  font-weight: 500;
+  font-family: var(--font-inter);
+  text-align: left;
+  display: inline-block;
+  width: auto;
+}
+
+.top_name:hover {
+  color: var(--color-gray-400);
+}
+
+.top_sec_name {
+  position: absolute;
+  top: 15px;
+  left: 136px;
+  line-height: 150%;
+  font-weight: 500;
+  display: inline-block;
+}

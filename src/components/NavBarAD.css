@@ -1,0 +1,712 @@
+.navbar8 {
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #11111d;
+  width: 300px;
+  height: 1240px;
+  user-select: none;
+}
+
+.home32 {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #1f2021;
+  text-align: left;
+}
+
+.icon-home6 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+
+.home-wrapper1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: #f6f5fa;
+  position: absolute;
+  top: 154px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.home-wrapper1:active {
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+.publications-wrapper {
+  margin: 0 !important;
+  position: absolute;
+  top: 3px;
+  left: 9px;
+  display: flex;
+  flex-direction: row;
+  padding: 2px 2px 0px 7px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  z-index: 0;
+}
+
+.researchpaper-inner1 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.researchpaper2 {
+  position: absolute;
+  top: 0px;
+  left: 32px;
+  width: 212px;
+  height: 32px;
+}
+
+.bookopentext-icon2 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 8px;
+  width: 32px;
+  height: 32px;
+}
+.publication {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 244px;
+  height: 32px;
+}
+
+.publication-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 208px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.publication-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.publication-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.awards {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 244px;
+  height: 32px;
+}
+
+.awards-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 424px;
+  left: 19px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.awards-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.awards-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.project-inner {
+  position: absolute;
+  top: 0px;
+  left: 32px;
+  border-radius: 10px;
+  width: 212px;
+  display: flex;
+  flex-direction: row;
+  padding: 3px 10px;
+  box-sizing: border-box;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.project-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 316px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.project-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.project-wrapper:active {
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.patent {
+  position: absolute;
+  top: 6px;
+  left: 5px;
+  width: 244px;
+  height: 32px;
+}
+
+.patent-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 370px;
+  left: 23px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.patent-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.patent-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.lectures-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 262px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.lectures-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.lectures-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.publication-container {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 550px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.publication-container:hover {
+  background-color: #1d1b31;
+}
+
+.publication-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.lectures-container {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 604px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.lectures-container:hover {
+  background-color: #1d1b31;
+}
+
+.lectures-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.project-container {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 658px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.project-container:hover {
+  background-color: #1d1b31;
+}
+
+.project-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.patent-frame {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 712px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.patent-frame:hover {
+  background-color: #1d1b31;
+}
+
+.patent-frame:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.awards-frame {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 766px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.awards-frame:hover {
+  background-color: #1d1b31;
+}
+
+.awards-frame:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.faculty-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 820px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.faculty-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.faculty-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.nav_pub {
+  left: 56px;
+}
+
+.users-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 874px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.users-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.users-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.notification3 {
+  position: absolute;
+  top: 5px;
+  left: 8px;
+  width: 244px;
+  height: 32px;
+}
+
+.notification-wrapper {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1001px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.notification-wrapper:hover {
+  background-color: #1d1b31;
+}
+
+.notification-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.support-wrapper1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1055px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.support-wrapper1:hover {
+  background-color: #1d1b31;
+}
+
+.support-wrapper1:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.settings-wrapper1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1109px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.settings-wrapper1:hover {
+  background-color: #1d1b31;
+}
+
+.settings-wrapper1:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.ellipse-div {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 5px;
+  height: 5px;
+}
+
+.btn-expand-child1 {
+  position: absolute;
+  top: 9px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 5px;
+  height: 5px;
+}
+
+.btn-expand-child2 {
+  position: absolute;
+  top: 18px;
+  left: 0px;
+  border-radius: 50%;
+  background-color: #d9d9d9;
+  width: 5px;
+  height: 5px;
+}
+
+.btn-expand1 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 36px;
+  left: 283px;
+  width: 5px;
+  height: 23px;
+}
+
+.facultyid4 {
+  margin: 0;
+  position: absolute;
+  top: 51px;
+  left: 84px;
+}
+
+.facultyname4 {
+  margin: 0;
+  position: absolute;
+  top: 32px;
+  left: 84px;
+  font-size: 16px;
+}
+
+.facultyphoto-icon2 {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  border-radius: 50%;
+  width: 54px;
+  height: 54px;
+}
+
+.facultyphoto-icon2:hover {
+  animation: 1s ease 0s 1 normal none jello-horizontal;
+  opacity: 1;
+}
+
+@keyframes jello-horizontal {
+
+  0%,
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+}
+
+.nav-facinfo4 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #1d1b31;
+  width: 300px;
+  height: 94px;
+  user-select: none;
+  font-size: 12px;
+  color: #fff;
+}
+
+.logout-wrapper3 {
+  cursor: pointer;
+  border: none;
+  padding: 0;
+  background-color: #ad1212;
+  position: absolute;
+  top: 1168px;
+  left: 20px;
+  border-radius: 10px;
+  width: 260px;
+  height: 44px;
+}
+
+.logout-wrapper3:hover {
+  background-color: #8f1313;
+}
+
+.logout-wrapper3:active {
+  background-color: #8f1313;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+
+.general {
+  margin: 0;
+  position: absolute;
+  top: 122px;
+  left: 28px;
+  font-weight: 500;
+}
+
+.admin {
+  margin: 0;
+  position: absolute;
+  top: 518px;
+  left: 28px;
+  font-weight: 500;
+}
+
+.navbar-line {
+  position: absolute;
+  top: 489.5px;
+  left: 30px;
+  border-radius: 22px;
+  width: 240px;
+  height: 1px;
+}
+
+.navbar-item {
+  position: absolute;
+  top: 939.5px;
+  left: 28px;
+  border-radius: 22px;
+  width: 240px;
+  height: 1px;
+}
+
+.other {
+  margin: 0;
+  position: absolute;
+  top: 968px;
+  left: 28px;
+  font-weight: 500;
+}
+
+.navbar7 {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #11111d;
+  width: 300px;
+  height: 1240px;
+  user-select: none;
+  text-align: left;
+  font-size: 13px;
+  color: #959595;
+  font-family: Inter;
+}
+
+.nav-text {
+
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: Inter;
+  color: #fff;
+  text-align: left;
+
+}

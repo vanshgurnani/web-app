@@ -1,0 +1,382 @@
+@keyframes pulsate {
+  0% {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+.admininavbar-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #11111d;
+  width: 96px;
+  height: 1240px;
+}
+.icon-home {
+  position: absolute;
+  top: 6px;
+  left: 8px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.icon-home-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+  position: absolute;
+  top: 154px;
+  left: 24px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.icon-home-wrapper:active {
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.logout-icon,
+.logout-wrapper {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  width: 32px;
+  height: 32px;
+}
+.logout-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: #ad1212;
+  top: 1168px;
+  left: 26px;
+  border-radius: 10px;
+  width: 44px;
+  height: 44px;
+}
+.logout-wrapper:active,
+.logout-wrapper:hover {
+  background-color: #8f1313;
+}
+.logout-wrapper:active {
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.nav-expand-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #1d1b31;
+  width: 96px;
+  height: 94px;
+}
+.vaadinlines-list-icon {
+  position: absolute;
+  top: 31px;
+  left: 32px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.nav-expand {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 96px;
+  height: 94px;
+}
+.bookopentext-icon {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+}
+.bookopentext-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 208px;
+  left: 23px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.bookopentext-wrapper:hover {
+  background-color: #1d1b31;
+}
+.bookopentext-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-seminar {
+  position: absolute;
+  top: 6px;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.icon-seminar-wrapper,
+.noun-learning-analytics-27473-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 262px;
+  left: 23px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.icon-seminar-wrapper:hover {
+  background-color: #1d1b31;
+}
+.icon-seminar-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.noun-learning-analytics-27473-wrapper {
+  top: 316px;
+}
+.noun-learning-analytics-27473-wrapper:hover {
+  background-color: #1d1b31;
+}
+.noun-learning-analytics-27473-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.bookopentext-container,
+.dashiconsawards-wrapper,
+.heroiconsdocument-check-solid-wrapper,
+.icon-seminar-container,
+.noun-learning-analytics-27473-container {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 370px;
+  left: 23px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.heroiconsdocument-check-solid-wrapper:hover {
+  background-color: #1d1b31;
+}
+.heroiconsdocument-check-solid-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.bookopentext-container,
+.dashiconsawards-wrapper,
+.icon-seminar-container,
+.noun-learning-analytics-27473-container {
+  top: 424px;
+}
+.dashiconsawards-wrapper:hover {
+  background-color: #1d1b31;
+}
+.dashiconsawards-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.bookopentext-container,
+.icon-seminar-container,
+.noun-learning-analytics-27473-container {
+  top: 550px;
+}
+.bookopentext-container:hover {
+  background-color: #1d1b31;
+}
+.bookopentext-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-seminar-container,
+.noun-learning-analytics-27473-container {
+  top: 604px;
+}
+.icon-seminar-container:hover {
+  background-color: #1d1b31;
+}
+.icon-seminar-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.noun-learning-analytics-27473-container {
+  top: 658px;
+}
+.noun-learning-analytics-27473-container:hover {
+  background-color: #1d1b31;
+}
+.noun-learning-analytics-27473-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.dashiconsawards-container,
+.heroiconsdocument-check-solid-container,
+.icon-park-outlinefile-staff-o-wrapper,
+.material-symbolsgroups-rounde-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 712px;
+  left: 23px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.heroiconsdocument-check-solid-container:hover {
+  background-color: #1d1b31;
+}
+.heroiconsdocument-check-solid-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.dashiconsawards-container,
+.icon-park-outlinefile-staff-o-wrapper,
+.material-symbolsgroups-rounde-wrapper {
+  top: 766px;
+}
+.dashiconsawards-container:hover {
+  background-color: #1d1b31;
+}
+.dashiconsawards-container:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-park-outlinefile-staff-o-wrapper,
+.material-symbolsgroups-rounde-wrapper {
+  top: 820px;
+}
+.icon-park-outlinefile-staff-o-wrapper:hover {
+  background-color: #1d1b31;
+}
+.icon-park-outlinefile-staff-o-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.material-symbolsgroups-rounde-wrapper {
+  top: 874px;
+}
+.material-symbolsgroups-rounde-wrapper:hover {
+  background-color: #1d1b31;
+}
+.material-symbolsgroups-rounde-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-notification {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+  width: 32px;
+  height: 32px;
+  overflow: hidden;
+}
+.icon-notification-wrapper,
+.icon-settings-wrapper,
+.icon-support-wrapper {
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  position: absolute;
+  top: 1001px;
+  left: 23px;
+  border-radius: 10px;
+  width: 48px;
+  height: 44px;
+}
+.icon-notification-wrapper:hover {
+  background-color: #1d1b31;
+}
+.icon-notification-wrapper:active {
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-settings-wrapper,
+.icon-support-wrapper {
+  top: 1055px;
+}
+.icon-support-wrapper:hover {
+  background-color: #1d1b31;
+}
+.icon-support-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.icon-settings-wrapper {
+  top: 1109px;
+}
+.icon-settings-wrapper:hover {
+  background-color: #1d1b31;
+}
+.icon-settings-wrapper:active {
+  background-color: #1d1b31;
+  animation: 1s ease 0s 1 normal none pulsate;
+  opacity: 1;
+}
+.admininavbar-inner,
+.admininavbar-item {
+  position: absolute;
+  top: 489.5px;
+  left: 18px;
+  border-radius: 22px;
+  width: 60px;
+  height: 1px;
+}
+.admininavbar-inner {
+  top: 939.5px;
+  left: 21px;
+}
+.admininavbar {
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 1240px;
+  user-select: none;
+}
+
