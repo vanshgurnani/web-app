@@ -515,6 +515,18 @@
   font-size: 50px;
   color: #95b7c1;
   font-family: Inter;
+
+
+  /* transition: left 0.3s ease; */
+}
+
+
+.frame-summary.expanded {
+  left: 332px;
+}
+
+.frame-summary.collapsed {
+  left: 150px;
 }
 
 .vector-icon {
@@ -670,7 +682,10 @@
   font-size: 20px;
   color: #000;
   font-family: Inter;
+  /* width: 81vw;        */
+  /* manage the width */
 }
+
 
 
 .details{

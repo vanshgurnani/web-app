@@ -11,7 +11,7 @@ const TopNavbar = ({ name, secondName, thirdName, toPage }) => {
     }
 
     return (
-        <div className="frame-home">
+        <div className="frame-home full-width">
             <button onClick={onNavClick} className="top_name">{name} </button>
             <div className="top_sec_name" style={(name?.length > 10) ? { left: '162px' } : null}>{secondName ? "/ " + secondName : ""}</div>
             <div className="top_sec_name" style={{ left: '255px' }}>{(secondName && thirdName) ? "/ " + thirdName : ""}</div>
